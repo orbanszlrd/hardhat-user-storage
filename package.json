@@ -4,11 +4,14 @@
   "description": "Create Smart Contracts with Hardhat",
   "main": "index.js",
   "scripts": {
+    "compile": "yarn hardhat compile",
     "deploy": "yarn hardhat run scripts/deploy.js",
     "deploy:hardhat": "yarn hardhat run scripts/deploy.js --network hardhat",
     "deploy:localhost": "yarn hardhat run scripts/deploy.js --network localhost",
     "deploy:ganache": "yarn hardhat run scripts/deploy.js --network ganache",
-    "deploy:goerli": "yarn hardhat run scripts/deploy.js --network goerli"
+    "deploy:goerli": "yarn hardhat run scripts/deploy.js --network goerli",
+    "test": "yarn hardhat test",
+    "test:coverage": "yarn hardhat coverage"
   },
   "repository": "https://github.com/orbanszlrd/hardhat-user-storage.git",
   "author": "Szilard Orban",
