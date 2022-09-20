@@ -1,9 +1,13 @@
 require('@nomicfoundation/hardhat-toolbox');
+require('@nomiclabs/hardhat-etherscan');
 require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   defaultNetwork: 'hardhat',
+  etherscan: {
+    apiKey: process.env.ETERSCAN_API_KEY,
+  },
   networks: {
     goerli: {
       url: process.env.GOERLI_RPC_URL,
