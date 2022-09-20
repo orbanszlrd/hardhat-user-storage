@@ -6,6 +6,7 @@
   "scripts": {
     "deploy": "yarn hardhat run scripts/deploy.js",
     "deploy:hardhat": "yarn hardhat run scripts/deploy.js --network hardhat",
+    "deploy:localhost": "yarn hardhat run scripts/deploy.js --network localhost",
     "deploy:ganache": "yarn hardhat run scripts/deploy.js --network ganache",
     "deploy:goerli": "yarn hardhat run scripts/deploy.js --network goerli"
   },
@@ -26,10 +27,10 @@
     "dotenv": "^16.0.2",
     "ethers": "^5.4.7",
     "hardhat": "^2.11.2",
-    "hardhat-gas-reporter": "^1.0.8",
+    "hardhat-gas-reporter": "^1.0.9",
     "prettier": "^2.7.1",
     "prettier-plugin-solidity": "^1.0.0-beta.24",
-    "solidity-coverage": "^0.8.0",
+    "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.0"
   }
 }
