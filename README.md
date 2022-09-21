@@ -71,7 +71,7 @@ npm run test
 
 ### Running Tests with Coverage
 
-For test coverage you need to install the *solidity-coverage* package
+For test coverage you need to install the [solidity-coverage](https://www.npmjs.com/package/solidity-coverage) package.
 
 ```shell
 npm run coverage
